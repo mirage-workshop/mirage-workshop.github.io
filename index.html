@@ -1,0 +1,403 @@
+<!DOCTYPE HTML>
+<!--
+	Phantom by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>MIRAGE: Misleading Impacts Resulting from AI Generated Explanations</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+
+		<style>
+			/* Header and title styles */
+			.workshop-header h2 {
+				font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif !important;
+				font-weight: 300 !important;
+				color: #000 !important;
+			}
+
+			.main-title h1 {
+				font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif !important;
+				font-weight: 700 !important;
+				color: #000 !important;
+			}
+
+			.main-title p {
+				font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif !important;
+				color: #000 !important;
+			}
+
+			.iui-logo {
+				filter: invert(1) grayscale(1);
+			}
+
+			.people-grid {
+				display: grid !important;
+				grid-template-columns: repeat(2, 1fr) !important;
+				gap: 3rem 2rem !important;
+				max-width: 700px !important;
+				margin: 0 auto !important;
+				justify-items: center !important;
+				align-items: start !important;
+			}
+			.people-grid .person {
+				width: 100% !important;
+				max-width: 280px !important;
+				text-align: center !important;
+				display: flex !important;
+				flex-direction: column !important;
+				align-items: center !important;
+			}
+			.people-grid .avatar {
+				display: block !important;
+				margin: 0 auto 1rem !important;
+				text-align: center !important;
+				width: 150px !important;
+				height: 150px !important;
+				border-radius: 50% !important;
+				overflow: hidden !important;
+				border: 2px solid #ddd !important;
+			}
+			.people-grid .avatar img {
+				width: 150px !important;
+				height: 150px !important;
+				object-fit: cover !important;
+				object-position: center center !important;
+				border-radius: 0 !important;
+				display: block !important;
+				margin: 0 !important;
+				border: none !important;
+			}
+			/* Individual positioning for each organizer */
+			.people-grid .person:nth-child(1) .avatar img {
+				object-position: center 30% !important;
+			}
+			.people-grid .person:nth-child(2) .avatar img {
+				object-position: center 25% !important;
+			}
+			.people-grid .person:nth-child(3) .avatar img {
+				object-position: center 35% !important;
+			}
+			.people-grid .person:nth-child(4) .avatar img {
+				object-position: center 20% !important;
+			}
+			.people-grid .info {
+				text-align: center !important;
+				width: 100% !important;
+			}
+			@media (max-width: 768px) {
+				.people-grid {
+					grid-template-columns: 1fr;
+					gap: 2rem;
+				}
+			}
+		</style>
+	</head>
+
+	<body class="is-preload">
+
+		<div id="wrapper">
+
+			<!-- <header id="header">
+				<div class="inner">
+
+					<nav>
+						<ul>
+							<li><a href="#menu">Menu</a></li>
+						</ul>
+					</nav>
+
+				</div>
+			</header> -->
+
+			<!-- <nav id="menu">
+				<h2>FAST</h2>
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="generic.html">Ipsum veroeros</a></li>
+					<li><a href="generic.html">Tempus etiam</a></li>
+					<li><a href="generic.html">Consequat dolor</a></li>
+					<li><a href="elements.html">Elements</a></li>
+				</ul>
+			</nav> -->
+
+			<div id="main">
+				<div class="inner">
+
+					<!-- Header with logo and IUI info -->
+					<div class="workshop-header" style="display: flex; align-items: center; justify-content: space-between; padding: 1rem 0 2rem 0; margin-bottom: 1rem;">
+					  <!-- Left: MIRAGE logo -->
+					  <div style="flex: 0 0 auto;">
+					    <img src="images/mirage_logo.png" alt="MIRAGE Logo" style="width: 120px; height: auto;">
+					  </div>
+
+					  <!-- Center: IUI' 26 Workshop text -->
+					  <div style="flex: 1; text-align: center;">
+					    <h2 style="margin: 0; font-size: 1.5rem; letter-spacing: 0.05em;">IUI' 26 Workshop</h2>
+					  </div>
+
+					  <!-- Right: IUI 26 logo -->
+					  <div style="flex: 0 0 auto;">
+					    <img src="images/iui26_logo.png" alt="IUI 26" class="iui-logo" style="width: 80px; height: auto;">
+					  </div>
+					</div>
+
+					<!-- Main title section -->
+					<div class="main-title" style="text-align: center; margin: 3rem 0;">
+					  <h1 style="font-size: clamp(3rem, 8vw, 6rem); letter-spacing: 0.15em; margin: 0 0 1rem 0;">MIRAGE</h1>
+					  <p style="font-size: clamp(1rem, 2vw, 1.5rem); margin: 0; line-height: 1.6;">
+					    <strong>M</strong>isleading <strong>I</strong>mpacts <strong>R</strong>esulting from <strong>A</strong>I <strong>G</strong>enerated <strong>E</strong>xplanations
+					  </p>
+					</div>
+
+					<!-- Workshop info -->
+					<div style="text-align: center; margin: 2rem 0;">
+					  <p class="hero-subtitle">Workshop @ <a href="https://iui.acm.org/2026/">IUI 2026</a></p>
+					  <p class="hero-subtitle">March 23, 2026 (Anticipated) </p>
+					</div>
+
+					<br>
+					<br>
+
+					<p>
+						Explanations from AI systems can illuminate, yet they can misguide. This full-day MIRAGE workshop at IUI confronts the Explainability Pitfalls and Dark Patterns embedded in AI-generated explanations. Evidence now shows that explanations may inflate unwarranted trust, warp mental models, and obscure power asymmetries—even when designers intend no harm.
+					</p>
+
+					<p>
+						We distinguish these negative effects of XAI into Dark Patterns (DPs) where AI explanations were intentionally designed to achieve desirable states of AI systems e.g. placebo explanations to increase trust in AI systems versus Explainability Pitfalls (EPs) where unanticipated effects from AI explanations manifest even when there is no intention to manipulate users. The negative effects of explanations extend to propagation of errors across models (model risks), over-reliance on AI (human-interaction risks), false sense of security (systemic risks).
+					</p>
+
+					<p>
+						We convene an interdisciplinary group of researchers and practitioners to define, detect, and defuse these hazards. By shifting the focus from making explanations to making explanations safe, <strong>MIRAGE</strong> propels IUI toward an accountable, human-centered AI future.
+					</p>
+
+
+					<br>
+
+					<ul class="actions">
+						<li><a href="https://easychair.org/conferences?conf=mirage2026" class="button primary">Submit Paper</a></li>
+						<li><a href="https://iui.acm.org/2026/registration/" class="button primary">Registration</a></li>
+						<li><a href="https://iui.acm.org/2026/" class="button primary">Venue</a></li>
+					</ul>
+							
+					<header class="major" id="dates">
+						<h2>Important Dates</h2>
+					</header>
+							
+				  	<table>
+				    	<tbody>
+							<tr><td><strong>October 10, 2025</strong></td><td>1st call for papers</td></tr>
+							<tr><td><strong>December 19, 2025</strong></td><td>Paper submission deadline</td></tr>
+							<tr><td><strong>February 2, 2026</strong></td><td>Acceptance notification</td></tr>
+							<tr><td><strong>February 6, 2026</strong></td><td>Registration deadline for authors</td></tr>
+							<tr><td><strong>February 16, 2026</strong></td><td>Camera-ready CEUR papers to workshop chairs</td></tr>
+							<tr><td><strong>March 23, 2026</strong></td><td>Anticipated workshop date at IUI 2026</td></tr>
+					    </tbody>
+			  		</table>
+
+					<section>
+						<h2>Scope and Topics</h2>
+						<p>
+							Our workshop will bring together interdisciplinary researchers and practitioners in HCI and AI to gather the state-of-the-art in investigating and measuring Dark Patterns (DPs) and Explainability Pitfalls (EPs) as well as providing solutions for avoiding or mitigating DPs and EPs.
+						</p>
+
+						<p>
+							Topics covered in this workshop include (but are not exclusive to):
+							<ul>
+								<li>Theoretical work defining DPs and/or EPs</li>
+								<li>Case studies of DPs and EPs</li>
+								<li>Operationalizing the EP taxonomy—turning the four fault-lines into designer "pitfall prompt-cards"</li>
+								<li>Investigations of AI explanation user interface (UI) designs associated with EPs or DPs</li>
+								<li>XAI strategies for discriminative or generative AI which encourage (or discourage) DPs and/or EPs</li>
+								<li>Research into possible negative effects of explanations, including downstream effects</li>
+								<li>Research and possible design solutions into mitigations of EPs</li>
+								<li>Evaluation strategies for explanations that uncover possible DPs and EPs</li>
+								<li>Evidence of Null Effects of providing explanations</li>
+							</ul>
+						</p>
+
+						<header class="major" id="submission">
+							<h2>Submission Information</h2>
+						</header>
+
+						<p>
+							Submission types include position papers summarizing authors' existing research in the area and how it relates to the workshop theme, papers offering an industrial perspective or real-world approach to the workshop theme, papers that review the related literature and offer a new perspective, and papers that describe work-in-progress research projects.
+						</p>
+
+						<p>
+							We invite submissions to this workshop of <strong>2-8 pages (without references)</strong>. Prepare your submission using the latest ACM templates: <a href="https://authors.acm.org/binaries/content/assets/publications/taps/acm_submission_template.docx">Word Submission Template</a>, or the ACM LaTeX template using <code>\documentclass[manuscript,review]{acmart}</code>. Please note that <strong>your submission does not need to be anonymized</strong>.
+						</p>
+
+						<p>
+All submissions will be peer-reviewed through our program committee. Accepted submissions must be presented at the workshop; please note that the workshop is in-person only.
+
+Submission through Easychair: <a href="https://easychair.org/conferences?conf=mirage2026">MIRAGE2026</a>. 
+						</p>
+
+					</section>
+
+					<section> 
+						
+						<header class="major" id="chairs">
+							<h2>Organizers</h2>
+						</header>
+
+						<div class="people-grid">
+
+							<!-- Elizabeth -->
+							<article class="person">
+								<a class="avatar" href="https://research.ibm.com/people/elizabeth-daly">
+								  <img src="images/elizabeth_daly.jpeg" alt="Portrait of Elizabeth M. Daly">
+								</a>
+								<div class="info">
+								  <h3 class="name">
+								    <a href="https://research.ibm.com/people/elizabeth-daly" rel="noopener">Elizabeth M. Daly</a>
+								  </h3>
+								  <p class="affiliation">IBM Research, Ireland</p>
+								</div>
+							</article>
+
+							<!-- Upol -->
+							<article class="person">
+								<a class="avatar" href="https://www.upolehsan.com/">
+								  <img src="images/upol_ehsan.jpeg" alt="Portrait of Upol Ehsan">
+								</a>
+								<div class="info">
+								  <h3 class="name"><a href="https://www.upolehsan.com/" rel="noopener">Upol Ehsan</a></h3>
+								  <p class="affiliation">Northeastern University, USA</p>
+								</div>
+							</article>
+
+							<!-- Daniele -->
+							<article class="person">
+								<a class="avatar" href="http://researchswinger.org">
+								  <img src="images/daniele_quercia.jpeg" alt="Portrait of Daniele Quercia">
+								</a>
+								<div class="info">
+								  <h3 class="name"><a href="http://researchswinger.org" rel="noopener">Daniele Quercia</a></h3>
+								  <p class="affiliation">Nokia Bell Labs, UK</p>
+								</div>
+							</article>
+
+							<!-- Simone -->
+							<article class="person">
+								<a class="avatar" href="https://www.gla.ac.uk/schools/computing/staff/simonestumpf/">
+								  <img src="images/simone_stumpf.jpeg" alt="Portrait of Simone Stumpf">
+								</a>
+								<div class="info">
+								  <h3 class="name"><a href="https://www.gla.ac.uk/schools/computing/staff/simonestumpf/" rel="noopener">Simone Stumpf</a></h3>
+								  <p class="affiliation">University of Glasgow, United Kingdom</p>
+								</div>
+							</article>
+
+						</div>
+
+					</section>
+					<!--
+					<section>
+						<header class="major" id="accepted_papers">
+							<h3>Accepted Papers</h3>
+						</header>
+
+						<h4 id="spotlight">Lightning Talks</h4>
+						<ul>
+							<li><font color="#">Title</font><br>
+								Author (affiliation)
+							</li>
+						</ul>
+
+						<h4>Poster Presentations</h4>
+						<ul>
+							<li><font color="#">Title</font><br>
+								Author (affiliation)
+							</li>
+						</ul>
+						
+					</section>
+					-->
+
+					<br>
+
+					<section>							
+						<header class="major" id="pc_members"> 
+							<h3>Program Committee</h3> 
+						</header>
+
+						<p>We are grateful to the following people for helping make the MIRAGE workshop a success:</p>
+
+						<ul>
+							<li>Krzysztof Gajos (Harvard University, USA)</li>
+							<li>Jasmina Gajcin (IBM Research)</li>
+							<li>Marios Constantinides (CYENS Centre of Excellence, Cyprus)</li>
+							<li>Margaret Burnett (Oregon State University, USA)</li>
+							<li>Patrick Song (Harvard University, USA)</li>
+							<li>Eoin Delaney (Trinity College Dublin, Ireland)</li>
+							<li>Susanne Hindennach (University of Stuttgart, Germany)</li>
+						</ul>
+
+					</section>
+
+					<section>
+						<header class="major" id="schedule">
+							<h2>Workshop Schedule</h2>
+						</header>
+
+						<ul>
+							<li><strong>09:00</strong> Welcome and introductions</li>
+							<li><strong>09:30</strong> Keynote talk & Q&A</li>
+							<li><strong>10:15</strong> Coffee break</li>
+							<li><strong>10:30</strong> Highlight talks by accepted authors</li>
+							<li><strong>11:30</strong> Lightning talks by accepted authors</li>
+							<li><strong>12:15</strong> Lunch</li>
+							<li><strong>13:30</strong> Activity to map the research area</li>
+							<li><strong>15:00</strong> Coffee Break</li>
+							<li><strong>15:30</strong> Panel and Q&A</li>
+							<li><strong>16:30</strong> Wrap-up</li>
+							<li><strong>17:00</strong> Close</li>
+						</ul>
+					</section>
+
+					<!--
+					<section>
+						<header class="major" id="sponsors">
+							<h2>Sponsors</h2>
+						</header>
+					</section>
+					-->
+
+				</div>
+
+			</div>
+
+			<!-- Footer -->
+			<footer id="footer">
+				<div class="inner">
+					<section>
+						<h2>Contact</h2>
+						<ul class="icons">
+							<li>
+								<a href="mailto:mirage.workshop.iui@gmail.com">	mirage.workshop.iui@gmail.com</a>
+							</li>
+						</ul>							
+					</section>
+					<ul class="copyright">
+						<li>Design forked from: <a href="http://html5up.net">HTML5 UP</a></li>
+					</ul>
+				</div>
+			</footer>
+
+		</div>
+
+		<!-- Scripts -->
+		<script src="assets/js/jquery.min.js"></script>
+		<script src="assets/js/browser.min.js"></script>
+		<script src="assets/js/breakpoints.min.js"></script>
+		<script src="assets/js/util.js"></script>
+		<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
